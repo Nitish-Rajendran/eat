@@ -14,7 +14,7 @@ function App() {
     "Are you sure?",
     "I'll get u Brownies!",
     "Biriyani?",
-    "Really nigga?",
+    "Pretty please",
     "I'll be sad..;(",
     "I won't ask again",
     "I'll ask divya then",
@@ -86,7 +86,7 @@ function App() {
         </div>
 
         <h1 className="text-2xl sm:text-3xl font-bold text-pink-600 text-center">
-          {accepted ? "WOOHOO LESGOO po(TAE)te! 🎉" : "Will you be my valentine TAE?"}
+          {accepted ? "WOOHOO LESGOO my po(TAE)te! 🎉" : "Will you be my valentine TAE?"}
         </h1>
 
         {showButtons && (
