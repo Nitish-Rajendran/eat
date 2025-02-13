@@ -10,8 +10,8 @@ function App() {
   const noMessages = [
     "No",
     "Seriously Tae?",
-    "You sure priya?",
-    "Think again.",
+    "I won't call u short?",
+    "Are you sure?",
     "I'll get u Brownies!",
     "Biriyani?",
     "Really nigga?",
