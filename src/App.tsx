@@ -14,7 +14,7 @@ function App() {
     "Think again.",
     "I'll get u Brownies!",
     "Biriyani?",
-    "Really niqqa?",
+    "Really nigga?",
     "I'll be sad..;(",
     "I won't ask again",
     "I'll ask divya then",
