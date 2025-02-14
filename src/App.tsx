@@ -10,20 +10,20 @@ function App() {
   const noMessages = [
     "No",
     "Seriously Tae?",
-    "I won't call u short?",
-    "Are you sure?",
+    "I won't call u short, I promise",
+    "I'll let u pick the playlist",
     "I'll get u Brownies!",
-    "Biriyani?",
-    "Pretty please",
-    "I'll be sad..;(",
-    "I won't ask again",
+    "BRIYANI?",
+    "Pretty pwease",
+    "I know u won't say no",
+    "I won't ask twice",
     "I'll ask divya then",
     "POOKIE PLEASE..😭"
   ];
 
   const handleNoClick = () => {
     setNoCount(noCount + 1);
-    setYesButtonSize(prev => prev + 0.06);
+    setYesButtonSize(prev => prev + 0.08);
   };
 
   const handleYesClick = () => {
@@ -86,7 +86,7 @@ function App() {
         </div>
 
         <h1 className="text-2xl sm:text-3xl font-bold text-pink-600 text-center">
-          {accepted ? "WOOHOO LESGOO my po(TAE)te! 🎉" : "Will you be my valentine TAE?"}
+          {accepted ? "WOOHOO LESGOO po(TAE)te! 🎉" : "Will you be my valentine TAE?"}
         </h1>
 
         {showButtons && (
@@ -112,6 +112,11 @@ function App() {
             )}
           </div>
         )}
+      </div>
+
+      {/* Signature */}
+      <div className="fixed bottom-4 right-4 bg-pink-50/90 backdrop-blur-sm px-4 py-2 rounded-lg shadow-md z-20">
+        <p className="text-pink-600 font-medium">~made by Nyx with ❤️‍🔥</p>
       </div>
     </div>
   );
