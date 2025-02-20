@@ -15,7 +15,6 @@ function App() {
     "I'll get u Brownies!",
     "BRIYANI?",
     "Pretty pwease",
-    "I know u won't say no",
     "I won't ask twice",
     "I'll ask divya then",
     "POOKIE PLEASE..😭"
